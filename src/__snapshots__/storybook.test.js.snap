@@ -1,0 +1,915 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Add Product default 1`] = `
+<div
+  style={
+    Object {
+      "padding": "20px",
+    }
+  }
+>
+  <div>
+    <form
+      className="css-zemh3q-StyledForm eolaft64"
+      onReset={[Function]}
+      onSubmit={[Function]}
+    >
+      <div
+        className="css-ok9ssj-TitleBar eolaft62"
+      >
+        <h1
+          className="css-1zzhbt-PageHeading eolaft61"
+        >
+          Add Product
+        </h1>
+        <button
+          className="css-1tg7w2s-AddProductButton eolaft65"
+          disabled={false}
+          type="submit"
+        >
+          Save Product
+        </button>
+      </div>
+      <div
+        className="css-f2ou9y-FieldContainer eolaft60"
+      >
+        <div
+          className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
+        >
+          <label
+            className="MuiFormLabel-root-16 Styled-WithStyles-WithFormControlContext-FormLabel----root-1w5tp7f MuiFormLabel-root-16 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13"
+            data-shrink={false}
+            htmlFor="productname"
+          >
+            Product Name
+          </label>
+          <div
+            className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 MuiInputBase-fullWidth-45 MuiInput-fullWidth-30 MuiInputBase-formControl-37 MuiInput-formControl-24"
+            onClick={[Function]}
+          >
+            <div
+              aria-invalid={false}
+              className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 Styled-WithStyles-Input---root-1w5tp7f MuiInputBase-input-46 MuiInput-input-31"
+              onClick={[Function]}
+              required={false}
+            >
+              <input
+                className="MuiInputBase-input-46 MuiInput-input-31"
+                disabled={false}
+                id="productname"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                required={false}
+                type="text"
+                value=""
+              />
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-f2ou9y-FieldContainer eolaft60"
+      >
+        <div
+          className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
+        >
+          <label
+            className="MuiFormLabel-root-16 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13 Styled-WithStyles-WithFormControlContext-InputLabel----root-1w5tp7f"
+            data-shrink={false}
+            htmlFor="category"
+          >
+            Category
+          </label>
+          <div
+            className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 MuiInputBase-formControl-37 MuiInput-formControl-24 Styled-WithStyles-WithFormControlContext-Select----root-qmydt3"
+            onClick={[Function]}
+          >
+            <div
+              className="MuiSelect-root-53"
+            >
+              <div
+                aria-haspopup="true"
+                aria-pressed="false"
+                className="MuiSelect-select-54 MuiSelect-selectMenu-57 MuiInputBase-input-46 MuiInput-input-31"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                <span
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&#8203;",
+                    }
+                  }
+                />
+              </div>
+              <input
+                id="category"
+                name="category"
+                type="hidden"
+                value=""
+              />
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-60 MuiSelect-icon-59"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-f2ou9y-FieldContainer eolaft60"
+      >
+        <div
+          className="css-36679p"
+        >
+          <div>
+            Quantity
+          </div>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-60 MuiSvgIcon-colorPrimary-61 MuiSvgIcon-fontSizeSmall-67"
+            focusable="false"
+            onClick={[Function]}
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M7 11v2h10v-2H7zm5-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+            />
+          </svg>
+          <div>
+            1
+          </div>
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-60 MuiSvgIcon-colorPrimary-61 MuiSvgIcon-fontSizeSmall-67"
+            focusable="false"
+            onClick={[Function]}
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="css-f2ou9y-FieldContainer eolaft60"
+      >
+        <div
+          className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
+        >
+          <label
+            className="MuiFormLabel-root-16 Styled-WithStyles-WithFormControlContext-FormLabel----root-1w5tp7f MuiFormLabel-root-16 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13"
+            data-shrink={false}
+            htmlFor="weight"
+          >
+            Weight
+          </label>
+          <div
+            className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 MuiInputBase-fullWidth-45 MuiInput-fullWidth-30 MuiInputBase-formControl-37 MuiInput-formControl-24"
+            onClick={[Function]}
+          >
+            <div
+              aria-invalid={false}
+              className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 Styled-WithStyles-Input---root-1w5tp7f MuiInputBase-input-46 MuiInput-input-31"
+              onClick={[Function]}
+              required={false}
+            >
+              <input
+                className="MuiInputBase-input-46 MuiInput-input-31"
+                disabled={false}
+                id="weight"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                required={false}
+                type="text"
+                value=""
+              />
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-f2ou9y-FieldContainer eolaft60"
+      >
+        <div
+          className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
+          limit={100}
+        >
+          <label
+            className="MuiFormLabel-root-16 Styled-WithStyles-WithFormControlContext-FormLabel----root-1w5tp7f MuiFormLabel-root-16 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13"
+            data-shrink={false}
+            htmlFor="description"
+          >
+            Description
+          </label>
+          <div
+            className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 MuiInputBase-fullWidth-45 MuiInput-fullWidth-30 MuiInputBase-formControl-37 MuiInput-formControl-24 MuiInputBase-adornedEnd-41"
+            onClick={[Function]}
+          >
+            <div
+              aria-invalid={false}
+              className="MuiInputBase-root-36 MuiInput-root-23 MuiInput-underline-27 Styled-WithStyles-Input---root-1w5tp7f MuiInputBase-input-46 MuiInput-input-31 MuiInputBase-inputAdornedEnd-52"
+              onClick={[Function]}
+              required={false}
+            >
+              <input
+                className="MuiInputBase-input-46 MuiInput-input-31"
+                disabled={false}
+                id="description"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                required={false}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="MuiInputAdornment-root-73 MuiInputAdornment-positionStart-75 Styled-WithStyles-InputAdornment---root-18oguf5 Styled-WithStyles-InputAdornment---root-1"
+              color="default"
+            >
+              100
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-1rcichp-BottomBar eolaft63"
+      >
+        <button
+          className="css-1tg7w2s-AddProductButton eolaft65"
+          disabled={false}
+          type="submit"
+        >
+          Save Product
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Number Select default 1`] = `
+<div
+  style={
+    Object {
+      "padding": "20px",
+    }
+  }
+>
+  <div
+    className="css-36679p"
+  >
+    <div>
+      Quantity
+    </div>
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root-151 MuiSvgIcon-colorPrimary-152 MuiSvgIcon-fontSizeSmall-158"
+      focusable="false"
+      onClick={[Function]}
+      role="presentation"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M7 11v2h10v-2H7zm5-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+      />
+    </svg>
+    <div>
+      1
+    </div>
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root-151 MuiSvgIcon-colorPrimary-152 MuiSvgIcon-fontSizeSmall-158"
+      focusable="false"
+      onClick={[Function]}
+      role="presentation"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Product List default 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#F2F2F0",
+      "padding": "3rem",
+    }
+  }
+>
+  <div
+    className="css-rr25hy"
+  >
+    <div
+      className="css-1myutl0"
+    >
+      <img
+        alt=""
+        className="css-ivl41n"
+        src="http://via.placeholder.com/300x182"
+      />
+      <div
+        className="css-113x2mh"
+      >
+        <div
+          className="css-8q3ydr"
+        >
+            
+          vegetables
+           
+        </div>
+        <h1
+          className="css-1fv4csg"
+        >
+          tomato
+        </h1>
+        <div
+          className="css-eeo0gr"
+        >
+          <div>
+            <div
+              className="css-iiry3q"
+            >
+              Quantity
+            </div>
+            <div
+              className="css-11n3nqs"
+            >
+              5pcs
+            </div>
+          </div>
+          <div>
+            <div
+              className="css-iiry3q"
+            >
+              Weight
+            </div>
+            <div
+              className="css-11n3nqs"
+            >
+              3g
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-14tysdv"
+        >
+          The quick brown fox jumps over the lazy dog
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-1myutl0"
+    >
+      <img
+        alt=""
+        className="css-ivl41n"
+        src="http://via.placeholder.com/300x182"
+      />
+      <div
+        className="css-113x2mh"
+      >
+        <div
+          className="css-8q3ydr"
+        >
+            
+          vegetables
+           
+        </div>
+        <h1
+          className="css-1fv4csg"
+        >
+          onion
+        </h1>
+        <div
+          className="css-eeo0gr"
+        >
+          <div>
+            <div
+              className="css-iiry3q"
+            >
+              Quantity
+            </div>
+            <div
+              className="css-11n3nqs"
+            >
+              10pcs
+            </div>
+          </div>
+          <div>
+            <div
+              className="css-iiry3q"
+            >
+              Weight
+            </div>
+            <div
+              className="css-11n3nqs"
+            >
+              3g
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-14tysdv"
+        >
+          The quick brown fox jumps over the lazy dog
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-1myutl0"
+    >
+      <img
+        alt=""
+        className="css-ivl41n"
+        src="http://via.placeholder.com/300x182"
+      />
+      <div
+        className="css-113x2mh"
+      >
+        <div
+          className="css-8q3ydr"
+        >
+            
+          vegetables
+           
+        </div>
+        <h1
+          className="css-1fv4csg"
+        >
+          cabbage
+        </h1>
+        <div
+          className="css-eeo0gr"
+        >
+          <div>
+            <div
+              className="css-iiry3q"
+            >
+              Quantity
+            </div>
+            <div
+              className="css-11n3nqs"
+            >
+              5pcs
+            </div>
+          </div>
+          <div>
+            <div
+              className="css-iiry3q"
+            >
+              Weight
+            </div>
+            <div
+              className="css-11n3nqs"
+            >
+              3g
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-14tysdv"
+        >
+          The quick brown fox jumps over the lazy dog
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-1myutl0"
+    >
+      <img
+        alt=""
+        className="css-ivl41n"
+        src="http://via.placeholder.com/300x182"
+      />
+      <div
+        className="css-113x2mh"
+      >
+        <div
+          className="css-8q3ydr"
+        >
+            
+          fish
+           
+        </div>
+        <h1
+          className="css-1fv4csg"
+        >
+          salmon
+        </h1>
+        <div
+          className="css-eeo0gr"
+        >
+          <div>
+            <div
+              className="css-iiry3q"
+            >
+              Quantity
+            </div>
+            <div
+              className="css-11n3nqs"
+            >
+              10pcs
+            </div>
+          </div>
+          <div>
+            <div
+              className="css-iiry3q"
+            >
+              Weight
+            </div>
+            <div
+              className="css-11n3nqs"
+            >
+              3g
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-14tysdv"
+        >
+          The quick brown fox jumps over the lazy dog
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-1myutl0"
+    >
+      <img
+        alt=""
+        className="css-ivl41n"
+        src="http://via.placeholder.com/300x182"
+      />
+      <div
+        className="css-113x2mh"
+      >
+        <div
+          className="css-8q3ydr"
+        >
+            
+          vegetables
+           
+        </div>
+        <h1
+          className="css-1fv4csg"
+        >
+          carrot
+        </h1>
+        <div
+          className="css-eeo0gr"
+        >
+          <div>
+            <div
+              className="css-iiry3q"
+            >
+              Quantity
+            </div>
+            <div
+              className="css-11n3nqs"
+            >
+              5pcs
+            </div>
+          </div>
+          <div>
+            <div
+              className="css-iiry3q"
+            >
+              Weight
+            </div>
+            <div
+              className="css-11n3nqs"
+            >
+              3g
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-14tysdv"
+        >
+          The quick brown fox jumps over the lazy dog
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-1myutl0"
+    >
+      <img
+        alt=""
+        className="css-ivl41n"
+        src="http://via.placeholder.com/300x182"
+      />
+      <div
+        className="css-113x2mh"
+      >
+        <div
+          className="css-8q3ydr"
+        >
+            
+          meat
+           
+        </div>
+        <h1
+          className="css-1fv4csg"
+        >
+          pork
+        </h1>
+        <div
+          className="css-eeo0gr"
+        >
+          <div>
+            <div
+              className="css-iiry3q"
+            >
+              Quantity
+            </div>
+            <div
+              className="css-11n3nqs"
+            >
+              10pcs
+            </div>
+          </div>
+          <div>
+            <div
+              className="css-iiry3q"
+            >
+              Weight
+            </div>
+            <div
+              className="css-11n3nqs"
+            >
+              3g
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-14tysdv"
+        >
+          The quick brown fox jumps over the lazy dog
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Product default 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#F2F2F0",
+      "padding": "20px",
+    }
+  }
+>
+  <div
+    className="css-1myutl0"
+  >
+    <img
+      alt=""
+      className="css-ivl41n"
+      src="https://dl.dropboxusercontent.com/s/8xkblhn7i8xjp9s/onion.png?dl=0"
+    />
+    <div
+      className="css-113x2mh"
+    >
+      <div
+        className="css-8q3ydr"
+      >
+          
+        vegetables
+         
+      </div>
+      <h1
+        className="css-1fv4csg"
+      >
+        tomato
+      </h1>
+      <div
+        className="css-eeo0gr"
+      >
+        <div>
+          <div
+            className="css-iiry3q"
+          >
+            Quantity
+          </div>
+          <div
+            className="css-11n3nqs"
+          >
+            5pcs
+          </div>
+        </div>
+        <div>
+          <div
+            className="css-iiry3q"
+          >
+            Weight
+          </div>
+          <div
+            className="css-11n3nqs"
+          >
+            3g
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-14tysdv"
+      >
+        The quick brown fox jumps over the lazy dog
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Product focused 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#F2F2F0",
+      "padding": "20px",
+    }
+  }
+>
+  <div
+    className="css-7of5cg"
+  >
+    <img
+      alt=""
+      className="css-ivl41n"
+      src="https://dl.dropboxusercontent.com/s/8xkblhn7i8xjp9s/onion.png?dl=0"
+    />
+    <div
+      className="css-6lknyl"
+    >
+      <div
+        className="css-cu5sq4"
+      >
+          
+        vegetables
+         
+      </div>
+      <h1
+        className="css-1fv4csg"
+      >
+        tomato
+      </h1>
+      <div
+        className="css-eeo0gr"
+      >
+        <div>
+          <div
+            className="css-iiry3q"
+          >
+            Quantity
+          </div>
+          <div
+            className="css-11n3nqs"
+          >
+            5pcs
+          </div>
+        </div>
+        <div>
+          <div
+            className="css-iiry3q"
+          >
+            Weight
+          </div>
+          <div
+            className="css-11n3nqs"
+          >
+            3g
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-14tysdv"
+      >
+        The quick brown fox jumps over the lazy dog
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Text Field Count with count 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#F2F2F0",
+      "padding": "3rem",
+    }
+  }
+>
+  <div
+    className="MuiFormControl-root-78"
+    limit={10}
+  >
+    <div
+      className="MuiInputBase-root-95 MuiInput-root-82 MuiInput-underline-86 MuiInputBase-formControl-96 MuiInput-formControl-83 MuiInputBase-adornedEnd-100"
+      onClick={[Function]}
+    >
+      <div
+        aria-invalid={false}
+        className="MuiInputBase-root-95 MuiInput-root-82 MuiInput-underline-86 Styled-WithStyles-Input---root-1w5tp7f MuiInputBase-input-105 MuiInput-input-90 MuiInputBase-inputAdornedEnd-111"
+        onClick={[Function]}
+        required={false}
+      >
+        <input
+          className="MuiInputBase-input-105 MuiInput-input-90"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+        />
+      </div>
+      <div
+        className="MuiInputAdornment-root-112 MuiInputAdornment-positionStart-114 Styled-WithStyles-InputAdornment---root-18oguf5 Styled-WithStyles-InputAdornment---root-2"
+        color="default"
+      >
+        10
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Text Field Count without count 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#F2F2F0",
+      "padding": "3rem",
+    }
+  }
+>
+  <div
+    className="MuiFormControl-root-117"
+  >
+    <div
+      className="MuiInputBase-root-134 MuiInput-root-121 MuiInput-underline-125 MuiInputBase-formControl-135 MuiInput-formControl-122"
+      onClick={[Function]}
+    >
+      <div
+        aria-invalid={false}
+        className="MuiInputBase-root-134 MuiInput-root-121 MuiInput-underline-125 Styled-WithStyles-Input---root-1w5tp7f MuiInputBase-input-144 MuiInput-input-129"
+        onClick={[Function]}
+        required={false}
+      >
+        <input
+          className="MuiInputBase-input-144 MuiInput-input-129"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+        />
+      </div>
+      
+    </div>
+  </div>
+</div>
+`;
